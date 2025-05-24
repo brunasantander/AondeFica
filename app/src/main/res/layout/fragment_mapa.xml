@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maps_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MapaFragment">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/tvMapa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Fragmento Mapa"
-            android:textAlignment="center"
-            android:textSize="34sp" />
-    </LinearLayout>
-
+        android:layout_height="match_parent" />
 </FrameLayout>
