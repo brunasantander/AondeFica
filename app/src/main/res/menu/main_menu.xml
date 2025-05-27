@@ -4,11 +4,16 @@
 
     <item
         android:id="@+id/itBuscar"
-        android:title="Buscar" />
+        android:title="Buscar"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/itResultados"
-        android:title="Resultados" />
+        android:title="Resultados"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/itMapa"
-        android:title="Mapa" />
+        android:title="Mapa"
+        app:showAsAction="never" />
 </menu>
